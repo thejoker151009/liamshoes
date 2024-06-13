@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html dir="rtl">
+    <center>
+        <head> 
+            <title>דף רכישה</title>
+            <h1>    תודה שקניתם מאיתנו !!    </h1>
+        </head>
+        <h2>כתובת: מעפילי אגוז 13, תל אביב</h2>
+        <h2>קבלה תשלח למספר טלפון שציינת בטופס, אותה מראים לקופה בבואכם לאסוף את המשלוח</h2>
+        <h2> שעות פעילות: ימים א'-ה', בשעות: 6:00-21:00</h2>
+        <h2>מספר הזמנה: 1089</h2>
+        <h2>תמליצו לחברים!!</h2>
+    </center>
+
+
+<body>
+    <div class="flex-container">
+        <style>
+            label {
+                display: block;
+                margin-bottom: 10px;
+            }
+            input[type="text"] {
+                width: 200px; 
+                height: 30px; 
+                font-size: 16px;
+                padding: 5px;
+                border-radius: 10px;
+
+            }
+            .button {
+                width: 70px;
+                height: 40px;
+                justify-content: center;
+                align-items: center;
+                display: flex;
+            }
+        </style>
+        <div>
+                    <label for="name input"><h2> ספרו לנו, כיצד הייתה חווית הקניה שלכם?</h2></label> 
+                    <input type="text"> 
+        </div>
+
+        <button class="button"  onclick="thank_you()"><h2>שלח</h2></button>
+        <center>
+            <a href="דף תגובות.html"> <h2>לחצו ותשאירו תגובה!</h2></a>
+        </center>
+</body>
+
+<script>
+function thank_you () {
+    alert("תודה!");
+}
+</script>
+</html>
+<body style="background-color:gray;">
